@@ -30,6 +30,12 @@
   --tab-bg: var(--dark);
   --tab-border-color: var(--dark);
   --editor-top-bar-background: var(--dark);
+  --resizer-border: var(--dark-3);
+
+  --cp-color-12: var(--dark-1);
+  --cp-color-13: var(--dark-2);
+  --cp-color-14: var(--dark-3);
+  --cp-color-15: var(--dark-4);
 }
 
 /* zen mode ONLY ALLOW JS */
@@ -50,6 +56,14 @@ body.zen #box-js {
 }
 
 /* */
+.box.box.box,
+.editor .top-boxes,
+.CodeMirror-gutter-wrapper,
+body.project .editor-pane,
+body.project .editor {
+  background: var(--dark);
+}
+
 .CodeMirror-simplescroll-horizontal div,
 .CodeMirror-simplescroll-vertical div {
   background: var(--green);
@@ -61,8 +75,13 @@ body.zen #box-js {
   color: #f8f8f2 !important;
   border: none;
 }
+
 .console-wrap {
   background-color: var(--dark) !important;
+}
+
+.console-command-line {
+  background: var(--dark-1);
 }
 
 .CodeMirror-gutters {
