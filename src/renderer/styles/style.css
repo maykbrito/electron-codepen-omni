@@ -1,0 +1,148 @@
+:root {
+  /* Dark */
+  --dark-hue: 253;
+  --dark: hsl(var(--dark-hue), 24%, 10%);
+  --dark-1: hsl(var(--dark-hue), 24%, 14%);
+  --dark-2: hsl(var(--dark-hue), 24%, 18%);
+  --dark-3: hsl(var(--dark-hue), 24%, 22%);
+  --dark-4: hsl(var(--dark-hue), 24%, 26%);
+  --dark-5: hsl(var(--dark-hue), 24%, 30%);
+  /* Primary */
+  --primary-hue: 132;
+  --primary: hsl(var(--primary-hue), 70%, 65%);
+  --primary-1: hsl(var(--primary-hue), 70%, 55%);
+  --primary-2: hsl(var(--primary-hue), 70%, 45%);
+  --primary-3: hsl(var(--primary-hue), 70%, 35%);
+  --primary-4: hsl(var(--primary-hue), 70%, 25%);
+  --primary-5: hsl(var(--primary-hue), 70%, 15%);
+
+  /* colors */
+  --pink: hsl(326, 100%, 74%);
+  --green: hsl(132, 70%, 65%);
+  --purple: hsl(253, 35%, 66%);
+  --purple-dark: hsl(257, 26%, 40%);
+  --yellow: hsl(55, 70%, 69%);
+  --blue: hsl(189, 64%, 68%);
+  --white: hsl(240, 9%, 89%);
+  --orange: hsl(26, 74%, 65%);
+
+  /* codepen */
+  --tab-bg: var(--dark);
+  --tab-border-color: var(--dark);
+  --editor-top-bar-background: var(--dark);
+}
+
+/* zen mode ONLY ALLOW JS */
+body.zen {
+  padding: 0 !important;
+}
+
+body.zen .unsaved-editor-message,
+body.zen #main-header,
+body.zen #box-css,
+body.zen #box-html,
+body.zen #react-pen-footer {
+  display: none !important;
+}
+
+body.zen #box-js {
+  height: 100% !important;
+}
+
+/* */
+.CodeMirror-simplescroll-horizontal div,
+.CodeMirror-simplescroll-vertical div {
+  background: var(--green);
+}
+
+.CodeMirror,
+.cm-s-default .CodeMirror-gutters {
+  background-color: var(--dark) !important;
+  color: #f8f8f2 !important;
+  border: none;
+}
+.console-wrap {
+  background-color: var(--dark) !important;
+}
+
+.CodeMirror-gutters {
+  color: var(--dark) !important;
+}
+.CodeMirror-cursor {
+  border-left: solid thin #f8f8f0;
+}
+.CodeMirror-linenumber {
+  color: var(--purple-dark);
+}
+.CodeMirror-selected {
+  background: rgba(255, 255, 255, 0.1);
+}
+.CodeMirror-line::selection,
+.CodeMirror-line > span::selection,
+.CodeMirror-line > span > span::selection {
+  background: rgba(255, 255, 255, 0.1);
+}
+.CodeMirror-line::-moz-selection,
+.CodeMirror-line > span::-moz-selection,
+.CodeMirror-line > span > span::-moz-selection {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+span.cm-comment {
+  color: var(--purple-dark);
+}
+span.cm-string,
+span.cm-string-2 {
+  color: var(--yellow);
+}
+span.cm-number {
+  color: var(--blue);
+}
+span.cm-variable {
+  color: var(--white);
+}
+span.cm-variable-2 {
+  color: var(--white);
+}
+span.cm-def {
+  color: var(--white);
+}
+span.cm-operator {
+  color: var(--pink);
+}
+span.cm-keyword {
+  color: var(--pink);
+}
+span.cm-atom {
+  color: #bd93f9;
+}
+span.cm-meta {
+  color: #f8f8f2;
+}
+span.cm-tag {
+  color: var(--pink);
+}
+span.cm-attribute {
+  color: var(--green);
+}
+span.cm-qualifier {
+  color: var(--green);
+}
+span.cm-property {
+  color: var(--green);
+}
+span.cm-builtin {
+  color: var(--green);
+}
+span.cm-variable-3,
+span.cm-type {
+  color: var(--orange);
+}
+
+.CodeMirror-activeline-background {
+  background: rgba(255, 255, 255, 0.1);
+}
+.CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}
