@@ -1,6 +1,6 @@
-# Omni Codepen.io
+# Electron Omni Codepen.io
 
-Inject CSS to customize Codepen colors ;)
+With Electron.js, let's inject some CSS to customize Codepen ;)
 
 ![Preview](.github/preview.png)
 
