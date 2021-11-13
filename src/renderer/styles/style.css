@@ -38,23 +38,6 @@
   --cp-color-15: var(--dark-4);
 }
 
-/* zen mode ONLY ALLOW JS */
-body.zen {
-  padding: 0 !important;
-}
-
-body.zen .unsaved-editor-message,
-body.zen #main-header,
-body.zen #box-css,
-body.zen #box-html,
-body.zen #react-pen-footer {
-  display: none !important;
-}
-
-body.zen #box-js {
-  height: 100% !important;
-}
-
 /* */
 .box.box.box,
 .editor .top-boxes,
