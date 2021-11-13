@@ -1,6 +1,12 @@
-# Electron Omni Codepen.io
+# Codepen.io Omni
 
-With Electron.js, let's inject some CSS to customize Codepen ;)
+With ElectronJS, let's inject some CSS to customize Codepen ;)
+
+<p align="center">
+<a href="#how-to-build">How to build</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#contact">Contact</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
 ![Preview](.github/preview.png)
 
@@ -10,28 +16,29 @@ To toggle it, just press: `Alt+Shift+control+r`
 
 ---
 
-## 3 Steps to Use it.
+## How to build
+
+1. Install
 
 ```sh
-# 1. Install
-npm i
-
-# 2. Build
-npm run build
-
-#3. Run your new app.
-_It will be at ./packages directory
+yarn
 ```
 
----
+2. Build
 
-## Get more content!
+```sh
+yarn package
+```
 
-- [Youtube](https://www.youtube.com/maykbrito)
+3. Run your new app.
+   _It will be at dir ./out_
+
+# Contact
+
+Mayk Brito
+
 - [maykbrito.dev](https://maykbrito.dev)
 
 ---
 
-Please, support with your star 🌟
-
-Thank you 💛
+If this project helps you, please leave your star 🌟 Thank you 💛
